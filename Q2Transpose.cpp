@@ -6,7 +6,7 @@ int main() {
     cout << "Enter number of rows and columns of the matrix: ";
     cin >> r >> c;
     vector<vector<int>> m(r,vector<int>(c));
-    vector<vector<int>> ans(c,vector<int>(c));
+    vector<vector<int>> ans(c,vector<int>(r));
     cout << "enter in matrix" <<endl;
     for(int i=0; i<r; i++) {
         for(int j=0; j<c; j++) {
